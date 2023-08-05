@@ -2,6 +2,7 @@
    
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -157,11 +158,12 @@ footer {
 
     width: 100%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     padding-bottom: 2rem;
 }
+
 
 .mapa {
     display: flex;
@@ -214,3 +216,8 @@ font-family:Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 1rem;
 }
 
+@media (max-width: 500px) {
+    .menu2 {
+        flex-direction: column;
+    }
+}
