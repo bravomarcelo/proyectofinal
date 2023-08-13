@@ -49,7 +49,7 @@ a:hover {
 }
 
 body {
-    background-image: url("/fotosmenu/body.avif");
+    background-image: url("../fotosmenu/body.avif");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
