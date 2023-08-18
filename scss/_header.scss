@@ -1,0 +1,35 @@
+$color_1: black;
+$color_2: aqua;
+
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 16rem;
+	padding-bottom: 2rem;
+	img {
+		width: 500px;
+	}
+	a {
+		color: $color_1;
+		text-decoration: none;
+	}
+}
+.navbar-nav {
+	width: 100%;
+	display: flex;
+	justify-content: center !important;
+	align-items: center !important;
+}
+li {
+	display: inline-block;
+	background-color: transparent;
+	font-size: 1.5rem;
+	color: $color_1;
+	padding: 10px 15px;
+}
+a {
+	&:hover {
+		color: $color_2 !important;
+	}
+}

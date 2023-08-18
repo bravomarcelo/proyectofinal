@@ -1,0 +1,51 @@
+.menu2 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 2rem;
+	mapa {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		height: 700px;
+		max-width: 100%;
+	}
+	formulario {
+		flex-direction: column;
+		display: flex;
+		align-items: center;
+		height: 100%;
+		width: 600px;
+	}
+}
+.mapa {
+	parrafo3 {
+		font-family: $font-family_1;
+		font-size: 14px solid;
+	}
+	gMapa {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		max-width: 70%;
+	}
+	dataMapa {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		width: 600px;
+	}
+}
+.formulario {
+	label {
+		font-weight: bold;
+	}
+	h1 {
+		margin-bottom: 1rem;
+	}
+	h2 {
+		margin-bottom: 1rem;
+	}
+}

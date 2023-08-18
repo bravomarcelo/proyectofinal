@@ -1,0 +1,14 @@
+.menu {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+menu {
+	.section {
+		width: 60%;
+	}
+	.aside {
+		width: 40%;
+	}
+}
