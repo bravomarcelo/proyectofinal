@@ -1,5 +1,50 @@
 main {
     margin: 2.5rem 0 !important; 
     border-top: 1px solid black;
+    &.menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .section {
+            width: 60%;
+            .parrafo1 {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 16px;
+                padding: 30px 150px 10px 40px;
+            }
+            .fotoIso {
+                padding-top: 10px;
+                width: 300px;
+                padding-left: 44px;
+            }
+            .img1 {
+                width: 50%;
+                margin-left: 3rem;
+                border-radius: 2px;
+            }
+            
+        }
+        .aside {
+            width: 40%;
+            .h2a {
+                padding-top: 100px;
+                padding-left: 44px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .img2 {
+                width: 70%;
+                padding: 10px 60px 10px 45px;
+            }
+            .parrafo2 {
+                font-family: $font-family_2;
+                font-size: 16px;
+                padding: 30px 150px 10px 40px;
+            }
+            
+        }
+    }
+    
  
  }
+ 

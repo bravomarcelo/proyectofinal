@@ -1,3 +1,42 @@
+.menuServicios .bannerFisica {
+  background: linear-gradient(#2980b9, #2c3e50);
+  height: 160px;
+  margin-bottom: 2rem;
+}
+.menuServicios .tituloSer {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  padding-left: 210px;
+}
+.menuServicios .cajaUno {
+  margin-left: 210px;
+  width: 150vh;
+}
+.menuServicios .cajaUno .textoRojo {
+  color: black;
+}
+.menuServicios .cajaDos {
+  margin-left: 210px;
+}
+.menuServicios .cajaTres {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+}
+.menuServicios .cajaTres .fotoFisica {
+  margin-left: 210px;
+}
+.menuServicios .cajaTres ul {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.menuServicios .cajaTres ul li {
+  font-size: 18px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +44,7 @@
 }
 
 body {
-  background-image: url("../fotosmenu/body.avif");
+  background: linear-gradient(#457fca, #00c6ff);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -53,51 +92,43 @@ main {
   margin: 2.5rem 0 !important;
   border-top: 1px solid black;
 }
-
-.menu {
+main.menu {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-menu .section {
+main.menu .section {
   width: 60%;
 }
-menu .aside {
-  width: 40%;
-}
-
-.parrafo1 {
+main.menu .section .parrafo1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   padding: 30px 150px 10px 40px;
 }
-
-.fotoIso {
+main.menu .section .fotoIso {
   padding-top: 10px;
   width: 300px;
   padding-left: 44px;
 }
-
-.img1 {
+main.menu .section .img1 {
   width: 50%;
   margin-left: 3rem;
   border-radius: 2px;
 }
-
-.h2a {
+main.menu .aside {
+  width: 40%;
+}
+main.menu .aside .h2a {
   padding-top: 100px;
   padding-left: 44px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-.img2 {
+main.menu .aside .img2 {
   width: 70%;
   padding: 10px 60px 10px 45px;
 }
-
-.parrafo2 {
+main.menu .aside .parrafo2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   padding: 30px 150px 10px 40px;
@@ -154,7 +185,6 @@ footer {
   justify-content: center;
   gap: 20px;
 }
-
 .contenedor a {
   font-size: 30px;
 }

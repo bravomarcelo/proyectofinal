@@ -1,0 +1,45 @@
+.menuServicios {
+
+    .bannerFisica {
+        background:linear-gradient(#2980b9,#2c3e50);
+        height: 160px;
+        margin-bottom: 2rem;
+        }
+    .tituloSer {
+            color: white;
+            display: flex;
+            align-items: center;
+            padding-top: 60px;
+            padding-left: 210px;
+        }
+    .cajaUno {
+        margin-left: 210px;
+        
+        width: 150vh;
+        .textoRojo { 
+            color:black;
+        }
+    }
+    .cajaDos {
+        
+        margin-left: 210px;
+    }
+    .cajaTres {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 2rem;
+        .fotoFisica{
+            margin-left: 210px;
+        }
+        ul {
+            gap: 2rem;
+            display: flex;
+            flex-direction: column;
+
+          
+            li{
+                font-size: 18px;
+            }
+        }
+    }
+}
