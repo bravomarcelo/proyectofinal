@@ -1,0 +1,22 @@
+.menuClientes {
+    .bannerCliente {
+        background:linear-gradient(#2980b9,#2c3e50);
+        height: 100%;
+        margin-bottom: 2rem;
+        }
+    .tituloCli{
+        color: white;
+        display: flex;
+        align-items: center;
+        padding-top: 60px;
+        padding-left: 210px;
+    }
+        
+    .cajaNueve {
+        margin-left: 210px;
+        width: 150vh;
+    }
+    .fotoCliente {
+        width: 150vh;
+    }
+}
