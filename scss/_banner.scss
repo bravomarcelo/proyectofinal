@@ -2,7 +2,7 @@
 
     .bannerFisica {
         background:linear-gradient(#2980b9,#2c3e50);
-        height: 160px;
+        height: 100%;
         margin-bottom: 2rem;
         }
     .tituloSer {
@@ -21,10 +21,11 @@
         }
     }
     .cajaDos {
-        
+        width: 150vh;
         margin-left: 210px;
     }
     .cajaTres {
+        width: 150vh;
         display: flex;
         flex-wrap: nowrap;
         gap: 2rem;
@@ -42,4 +43,60 @@
             }
         }
     }
+    .bannerElectronica {
+        background:linear-gradient(#2980b9,#2c3e50);
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+    .titDos {
+        color: white;
+        display: flex;
+        align-items: center;
+        padding-top: 60px;
+        padding-left: 210px;
+    }
+    .cajaCuatro {
+        margin-left: 210px;
+        width: 150vh;
+        .listaElectro {
+            display: flex;
+            flex-direction: column;
+        }
+        li {
+            font-size: 16px;
+        }
+
+    }
+    .bannerEvento{
+        background:linear-gradient(#2980b9,#2c3e50);
+        height: 160px;
+        margin-bottom: 2rem;
+
+    }
+    .titTres {
+        color: white;
+        display: flex;
+        align-items: center;
+        padding-top: 60px;
+        padding-left: 210px;
+    }
+    .cajaCinco {
+        margin-left: 210px;
+        width: 150vh;
+    }
+    .cajaSeis {
+        margin-left: 210px;
+        width: 150vh;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 2rem;
+    }
+    .fotoEvento {
+        height: 300px;
+        border: solid black 2px;
+    }
+
+      
+    
+
 }

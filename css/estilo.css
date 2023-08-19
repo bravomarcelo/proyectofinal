@@ -1,6 +1,6 @@
 .menuServicios .bannerFisica {
   background: linear-gradient(#2980b9, #2c3e50);
-  height: 160px;
+  height: 100%;
   margin-bottom: 2rem;
 }
 .menuServicios .tituloSer {
@@ -18,9 +18,11 @@
   color: black;
 }
 .menuServicios .cajaDos {
+  width: 150vh;
   margin-left: 210px;
 }
 .menuServicios .cajaTres {
+  width: 150vh;
   display: flex;
   flex-wrap: nowrap;
   gap: 2rem;
@@ -35,6 +37,56 @@
 }
 .menuServicios .cajaTres ul li {
   font-size: 18px;
+}
+.menuServicios .bannerElectronica {
+  background: linear-gradient(#2980b9, #2c3e50);
+  height: 100%;
+  margin-bottom: 2rem;
+}
+.menuServicios .titDos {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  padding-left: 210px;
+}
+.menuServicios .cajaCuatro {
+  margin-left: 210px;
+  width: 150vh;
+}
+.menuServicios .cajaCuatro .listaElectro {
+  display: flex;
+  flex-direction: column;
+}
+.menuServicios .cajaCuatro li {
+  font-size: 16px;
+}
+.menuServicios .bannerEvento {
+  background: linear-gradient(#2980b9, #2c3e50);
+  height: 160px;
+  margin-bottom: 2rem;
+}
+.menuServicios .titTres {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  padding-left: 210px;
+}
+.menuServicios .cajaCinco {
+  margin-left: 210px;
+  width: 150vh;
+}
+.menuServicios .cajaSeis {
+  margin-left: 210px;
+  width: 150vh;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+}
+.menuServicios .fotoEvento {
+  height: 300px;
+  border: solid black 2px;
 }
 
 * {
