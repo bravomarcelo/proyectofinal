@@ -2,36 +2,38 @@
 
     .bannerFisica {
         background:linear-gradient(#2980b9,#2c3e50);
-        height: 100%;
+        width: 100%;
         margin-bottom: 2rem;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         }
     .tituloSer {
             color: white;
             display: flex;
             align-items: center;
-            padding-top: 60px;
-            padding-left: 210px;
+            justify-content: center;
+            flex-direction: column;
         }
     .cajaUno {
-        margin-left: 210px;
-        
-        width: 150vh;
+        padding: 0 210px;
+        width: 100vw;
         .textoRojo { 
             color:black;
         }
     }
     .cajaDos {
-        width: 150vh;
-        margin-left: 210px;
+        width: 100vw;
+        padding: 0 210px;
     }
     .cajaTres {
-        width: 150vh;
+        width: 100vw;
         display: flex;
         flex-wrap: nowrap;
         gap: 2rem;
-        .fotoFisica{
-            margin-left: 210px;
-        }
+        padding: 0 210px;
+
         ul {
             gap: 2rem;
             display: flex;
@@ -47,17 +49,23 @@
         background:linear-gradient(#2980b9,#2c3e50);
         height: 100%;
         margin-bottom: 2rem;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .titDos {
         color: white;
         display: flex;
         align-items: center;
-        padding-top: 60px;
-        padding-left: 210px;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .cajaCuatro {
-        margin-left: 210px;
-        width: 150vh;
+        padding: 0 210px;
+        width: 100vw;
         .listaElectro {
             display: flex;
             flex-direction: column;
@@ -71,28 +79,36 @@
         background:linear-gradient(#2980b9,#2c3e50);
         height: 160px;
         margin-bottom: 2rem;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
     }
     .titTres {
         color: white;
         display: flex;
         align-items: center;
-        padding-top: 60px;
-        padding-left: 210px;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
     }
     .cajaCinco {
-        margin-left: 210px;
-        width: 150vh;
+        padding: 0 210px;
+        width: 100vw;
     }
     .cajaSeis {
-        margin-left: 210px;
-        width: 150vh;
+        padding: 0 210px;
+        width: 100vw;
         display: flex;
-        flex-wrap: nowrap;
-        gap: 2rem;
+        flex-wrap: wrap;
+       
     }
     .fotoEvento {
-        height: 300px;
+        max-width: 85%;
+        
         border: solid black 2px;
     }
 

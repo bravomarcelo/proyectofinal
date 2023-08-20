@@ -1,6 +1,9 @@
+.menuClientes {
+  width: 100%;
+}
 .menuClientes .bannerCliente {
   background: linear-gradient(#2980b9, #2c3e50);
-  height: 100%;
+  width: 100vw;
   margin-bottom: 2rem;
 }
 .menuClientes .tituloCli {
@@ -11,11 +14,22 @@
   padding-left: 210px;
 }
 .menuClientes .cajaNueve {
-  margin-left: 210px;
-  width: 150vh;
+  padding: 0 210px;
 }
-.menuClientes .fotoCliente {
-  width: 150vh;
+.menuClientes .columnas {
+  flex: 25%;
+  padding: 25px;
+}
+.menuClientes .columnas img {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.menuClientes .caja10 {
+  padding: 0 210px;
+  box-sizing: border-box;
+}
+.menuClientes .caja10 h4 {
+  text-align: center;
 }
 
 .menuBeneficios .bannerBeneficios {
@@ -31,8 +45,8 @@
   padding-left: 210px;
 }
 .menuBeneficios .cajaSiete {
-  margin-left: 210px;
-  width: 150vh;
+  padding: 0px 210px;
+  width: 100%;
 }
 .menuBeneficios .bannerBenPar {
   background: linear-gradient(#2980b9, #2c3e50);
@@ -40,41 +54,43 @@
   margin-bottom: 2rem;
 }
 .menuBeneficios .cajaOcho {
-  margin-left: 210px;
-  width: 150vh;
+  padding: 0 210px;
+  width: 100%;
 }
 
 .menuServicios .bannerFisica {
   background: linear-gradient(#2980b9, #2c3e50);
-  height: 100%;
+  width: 100%;
   margin-bottom: 2rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .menuServicios .tituloSer {
   color: white;
   display: flex;
   align-items: center;
-  padding-top: 60px;
-  padding-left: 210px;
+  justify-content: center;
+  flex-direction: column;
 }
 .menuServicios .cajaUno {
-  margin-left: 210px;
-  width: 150vh;
+  padding: 0 210px;
+  width: 100vw;
 }
 .menuServicios .cajaUno .textoRojo {
   color: black;
 }
 .menuServicios .cajaDos {
-  width: 150vh;
-  margin-left: 210px;
+  width: 100vw;
+  padding: 0 210px;
 }
 .menuServicios .cajaTres {
-  width: 150vh;
+  width: 100vw;
   display: flex;
   flex-wrap: nowrap;
   gap: 2rem;
-}
-.menuServicios .cajaTres .fotoFisica {
-  margin-left: 210px;
+  padding: 0 210px;
 }
 .menuServicios .cajaTres ul {
   gap: 2rem;
@@ -88,17 +104,23 @@
   background: linear-gradient(#2980b9, #2c3e50);
   height: 100%;
   margin-bottom: 2rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .menuServicios .titDos {
   color: white;
   display: flex;
   align-items: center;
-  padding-top: 60px;
-  padding-left: 210px;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .menuServicios .cajaCuatro {
-  margin-left: 210px;
-  width: 150vh;
+  padding: 0 210px;
+  width: 100vw;
 }
 .menuServicios .cajaCuatro .listaElectro {
   display: flex;
@@ -111,27 +133,32 @@
   background: linear-gradient(#2980b9, #2c3e50);
   height: 160px;
   margin-bottom: 2rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .menuServicios .titTres {
   color: white;
   display: flex;
   align-items: center;
-  padding-top: 60px;
-  padding-left: 210px;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .menuServicios .cajaCinco {
-  margin-left: 210px;
-  width: 150vh;
+  padding: 0 210px;
+  width: 100vw;
 }
 .menuServicios .cajaSeis {
-  margin-left: 210px;
-  width: 150vh;
+  padding: 0 210px;
+  width: 100vw;
   display: flex;
-  flex-wrap: nowrap;
-  gap: 2rem;
+  flex-wrap: wrap;
 }
 .menuServicios .fotoEvento {
-  height: 300px;
+  max-width: 85%;
   border: solid black 2px;
 }
 
@@ -191,49 +218,56 @@ main {
   border-top: 1px solid black;
 }
 main.menu {
+  flex-direction: column;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-main.menu .section {
+main.menu .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+main.menu .content .section {
   width: 60%;
 }
-main.menu .section .parrafo1 {
+main.menu .content .section .parrafo1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   padding: 30px 150px 10px 40px;
 }
-main.menu .section .fotoIso {
+main.menu .content .section .fotoIso {
   padding-top: 10px;
   width: 300px;
   padding-left: 44px;
 }
-main.menu .section .img1 {
+main.menu .content .section .img1 {
   width: 50%;
   margin-left: 3rem;
   border-radius: 2px;
 }
-main.menu .aside {
+main.menu .content .aside {
   width: 40%;
 }
-main.menu .aside .h2a {
+main.menu .content .aside .h2a {
   padding-top: 100px;
   padding-left: 44px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-main.menu .aside .img2 {
+main.menu .content .aside .img2 {
   width: 70%;
   padding: 10px 60px 10px 45px;
 }
-main.menu .aside .parrafo2 {
+main.menu .content .aside .parrafo2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   padding: 30px 150px 10px 40px;
 }
 
 @media (max-width: 1100px) {
-  .menu {
+  .content {
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -250,6 +284,9 @@ main.menu .aside .parrafo2 {
     justify-content: center;
     width: 100% !important;
   }
+  .cajaTres {
+    flex-direction: column;
+  }
 }
 @media (max-width: 850px) {
   .menu2 {
@@ -265,6 +302,26 @@ main.menu .aside .parrafo2 {
   }
   .navbar-nav {
     background-color: white;
+  }
+  .cajaBox {
+    padding: 0 100px !important;
+  }
+  .cajaTres {
+    flex-direction: column;
+  }
+}
+@media (max-width: 700px) {
+  .cajaBox {
+    padding: 0 1rem !important;
+  }
+  .tit1 {
+    padding: 0 !important;
+  }
+  .tituloCli {
+    padding: 0 !important;
+  }
+  .titTres {
+    padding: 0 !important;
   }
 }
 footer {

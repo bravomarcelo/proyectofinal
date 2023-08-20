@@ -1,7 +1,8 @@
 .menuClientes {
+    width: 100%;
     .bannerCliente {
         background:linear-gradient(#2980b9,#2c3e50);
-        height: 100%;
+        width: 100vw;
         margin-bottom: 2rem;
         }
     .tituloCli{
@@ -11,12 +12,24 @@
         padding-top: 60px;
         padding-left: 210px;
     }
-        
     .cajaNueve {
-        margin-left: 210px;
-        width: 150vh;
+        padding: 0 210px;
+    
     }
-    .fotoCliente {
-        width: 150vh;
+    .columnas {
+        flex: 25%;
+        padding: 25px;
+    }
+    .columnas img {
+        margin-top: 25px;
+        margin-left: 25px;
+        
+    }
+    .caja10 {
+        padding: 0 210px;
+        box-sizing: border-box;
+        h4 {
+            text-align: center;
+        }
     }
 }
